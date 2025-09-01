@@ -23,17 +23,5 @@ Fitur utama meliputi katalog produk, pemesanan makanan, checkout dengan bukti pe
 - **Database**: MySQL  
 
 
-/dapur-tini
-│── /assets # File CSS, JS, dan gambar
-│── /config # Koneksi database
-│── /includes # Header, footer, komponen umum
-│── /admin # Halaman admin (CRUD produk & manajemen)
-│── index.php # Halaman utama (katalog produk)
-│── produk.php # Halaman daftar produk
-│── checkout.php # Form checkout & upload bukti pembayaran
-│── proses_checkout.php # Proses penyimpanan pesanan ke database
-│── struk.php # Ringkasan struk pesanan
-│── login.php # Login admin
-│── dashboard.php # Dashboard admin
 
 
