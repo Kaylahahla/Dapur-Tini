@@ -1,81 +1,26 @@
-🍴 Dapur Tini
+# 🍽️ Dapur Tini - Website Pemesanan Makanan Rumahan
 
-Website pemesanan makanan rumahan berbasis PHP & MySQL dengan tampilan modern menggunakan Bootstrap.
-Proyek ini dikembangkan sebagai solusi digital untuk mempermudah pelanggan dalam memesan makanan secara online.
+Website ini dibuat untuk mendukung usaha **Dapur Tini**, sebuah layanan makanan rumahan yang dapat dipesan secara online.  
+Fitur utama meliputi katalog produk, pemesanan makanan, checkout dengan bukti pembayaran, serta halaman admin untuk manajemen produk.
 
-🚀 Fitur Utama
+---
 
-✅ Halaman Katalog Produk
+## 🚀 Fitur Utama
 
-Menampilkan daftar makanan dengan gambar, harga, dan status ketersediaan.
+- ✅ **Katalog Produk**: Menampilkan daftar menu dengan filter kategori.  
+- ✅ **Status Produk**: Menampilkan status ketersediaan (Ready / Tidak Ready).  
+- ✅ **Pesan Sekarang**: Tombol untuk melakukan pemesanan langsung.  
+- ✅ **Checkout**: Form pengisian data pelanggan dan upload bukti pembayaran.  
+- ✅ **Struk Pesanan**: Menampilkan ringkasan pesanan setelah checkout.  
+- ✅ **Halaman Admin**: CRUD produk (tambah, edit, hapus, ubah status, upload gambar).  
 
-Fitur filter kategori (contoh: lauk, sayur, kue).
+---
 
-Tombol Pesan Sekarang untuk menambahkan ke keranjang.
+## 🛠️ Teknologi yang Digunakan
 
-✅ Halaman Checkout
-
-Formulir input data pembeli (nama, alamat, kecamatan, no. HP).
-
-Upload bukti pembayaran.
-
-Menampilkan ringkasan pesanan sebelum dikirim.
-
-✅ Halaman Admin
-
-Tambah produk baru (dengan gambar, kategori, status).
-
-Edit & hapus produk.
-
-Melihat daftar pesanan pelanggan.
-
-✅ Struk / Nota Pesanan
-
-Setelah checkout, sistem otomatis membuat nota pesanan.
-
-🛠️ Teknologi yang Digunakan
-
-Frontend: HTML5, CSS3, Bootstrap 5
-
-Backend: PHP 8, MySQL
-
-Database: MySQL dengan tabel produk & pesanan
-
-Tools: XAMPP / Laragon (local server)
-
-📂 Struktur Folder
-Dapur-Tini/
-│── assets/        # gambar, css, js
-│── admin/         # halaman admin
-│── checkout.php   # halaman checkout
-│── nota.php       # struk pesanan
-│── index.php      # katalog produk
-│── db.sql         # database
-│── README.md
-
-⚡ Instalasi & Menjalankan
-
-Clone repo ini:
-
-git clone https://github.com/Kaylahahla/Dapur-Tini.git
+- **Frontend**: Bootstrap 5, HTML, CSS, JavaScript  
+- **Backend**: PHP (Native)  
+- **Database**: MySQL  
 
 
-Pindahkan folder ke dalam direktori server (misalnya htdocs kalau pakai XAMPP).
 
-Import database:
-
-Buka phpMyAdmin → buat database baru → import file db.sql.
-
-Jalankan server Apache & MySQL.
-
-Akses di browser:
-
-http://localhost/Dapur-Tini
-
-🖼️ Screenshot
-
-(tambahkan screenshot hasil tampilan website di sini, misalnya katalog produk & checkout)
-
-👩‍💻 Developer
-
-Proyek ini dikembangkan oleh Kaylahahla sebagai bagian dari tugas kuliah & portfolio web development.
